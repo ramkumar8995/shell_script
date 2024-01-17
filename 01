@@ -1,5 +1,12 @@
 #!/bin/bash
 
 echo "It is executed at : $(Date)"
+#no space while giving variable a value
 a=ram
 echo "Hi $a"
+#giving at runtime values i.e., args
+
+b=$1
+echo "Hello $b"
+
+
