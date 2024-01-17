@@ -9,4 +9,8 @@ echo "Hi $a"
 b=$1
 echo "Hello $b"
 
+#array
+
+veg=(potato tomato onion)
+echo "veg 01: ${veg[0]}"
 
